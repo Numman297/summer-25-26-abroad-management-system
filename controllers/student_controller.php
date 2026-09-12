@@ -1,12 +1,5 @@
 <?php
-// ================================================================
-// CONTROLLER: STUDENT dashboard
-// CRUD  : educational records & qualifications
-// Extras: 1) Mock test score logger & band score calculator
-//         2) Study abroad travel companion / flight buddy finder
-//         3) University programs & agency packages exploration + 1-click apply
-//         4) Student feedback submission & review history
-// ================================================================
+
 
 function student_controller($conn) {
     $action = $_GET['action'] ?? 'dashboard';
