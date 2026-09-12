@@ -1,5 +1,5 @@
 <?php
-
+//  student
 
 function student_controller($conn) {
     $action = $_GET['action'] ?? 'dashboard';
